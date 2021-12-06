@@ -5,7 +5,7 @@
 Este es un monorepositorio construido con Lerna https://lerna.js.org/
 
 Para su ejecución se deben correr los siguientes comandos 
-en la raiz del directorio donde se descargo el proyecto
+en la raíz del directorio donde se descargo el proyecto
 
 1. `npm i`
 2. `npx lerna clean -y`
