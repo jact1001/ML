@@ -1,5 +1,5 @@
 import { Action, ActionType } from '../actions/items.actions';
-import { IItemList } from "../../shared/Models/IItemsList";
+import { IItemList } from "../../shared/models/IItemsList";
 
 interface State {
     items: IItemList | null;

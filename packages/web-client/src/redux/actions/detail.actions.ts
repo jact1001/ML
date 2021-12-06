@@ -1,4 +1,4 @@
-import {IItem} from "../../shared/Models/IItemDetail";
+import {IItem} from "../../shared/models/IItemDetail";
 
 export enum ActionType {
     GET_POST_DETAIL_PENDING = 'GET_POST_DETAIL_PENDING',

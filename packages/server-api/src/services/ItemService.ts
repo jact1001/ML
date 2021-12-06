@@ -68,7 +68,7 @@ export class ItemService implements OnDestroy {
         }
     }
 
-    private buildItems(products: any, description = '') {
+    private buildItems(products: any) {
         const items = [];
         if (products.length !== undefined) {
             for (let i = 0; i < 4; i++) {

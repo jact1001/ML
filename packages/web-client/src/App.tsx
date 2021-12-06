@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import {Search} from "./containers/Search/Search";
+import {Search} from "./components/Search/Search";
 import './App.css';
-import {ItemList} from "./containers/ItemList/ItemList";
-import {ItemDetail} from "./containers/ItemDetail/ItemDetail";
-import {Breadcrumb} from "./containers/Breadcrumb/Breadcrumb";
+import {ItemList} from "./components/ItemList/ItemList";
+import {ItemDetail} from "./components/ItemDetail/ItemDetail";
+import {Breadcrumb} from "./components/Breadcrumb/Breadcrumb";
 
 function App() {
 
