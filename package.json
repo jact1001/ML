@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/enzyme": "^3.10.10",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna run start",
+    "test": "lerna run test"
+  }
+}
