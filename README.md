@@ -18,7 +18,9 @@ __server-api__ disponible en http://localhost:5000  y
 __web-client__ disponible en http://localhost:3000
 
 #### web-client
-Este proyecto esta construido con React y Redux
+Este proyecto esta construido con React y Redux,
+y permite consultar productos de ML. Ej: http://localhost:3000/items/MLA1112727160
 
 #### server-api
-Este proyecto esta construido con Node Js y Express
+Este proyecto esta construido con Node Js y Express,
+y pone a disposición un API REST. Ej: http://localhost:5000/rest/items?q=carro, 
