@@ -1,11 +1,11 @@
 # Prueba ML - Frontend
 
-#### instalación
+### instalación
 
 Este es un monorepositorio construido con Lerna https://lerna.js.org/
 
 Para su ejecución se deben correr los siguientes comandos 
-en la raíz del directorio donde se descargo el proyecto
+en la raíz del directorio donde se descargo el proyecto:
 
 1. `npm i`
 2. `npx lerna clean -y`
@@ -17,10 +17,18 @@ en el directorio packages,
 __server-api__ disponible en http://localhost:5000  y 
 __web-client__ disponible en http://localhost:3000
 
-#### web-client
+####
+### web-client
 Este proyecto esta construido con React y Redux,
 y permite consultar productos de ML. Ej: http://localhost:3000/items/MLA1112727160
 
-#### server-api
+#####
+Para correr las pruebas unitarias ejecutar:
+
+1. `cd cd packages/web-client/`
+2. `npm run test`
+
+####
+### server-api
 Este proyecto esta construido con Node Js y Express,
 y pone a disposición un API REST. Ej: http://localhost:5000/rest/items?q=carro, 

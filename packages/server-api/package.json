@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node src/bootstrap.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo testing node js project",
     "start:debug": "nodemon --watch \"src/**/*.ts\" --ignore \"node_modules/**/*\" --exec ts-node src/bootstrap.ts"
   },
   "keywords": [],
