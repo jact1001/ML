@@ -8,6 +8,6 @@
   },
   "scripts": {
     "start": "lerna run start",
-    "test": "lerna run test"
+    "test": "lerna run test --scope=web-client"
   }
 }
