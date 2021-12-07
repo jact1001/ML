@@ -7,8 +7,6 @@ import {Breadcrumb} from "./components/Breadcrumb/Breadcrumb";
 
 function App() {
 
-
-
     return (
           <Router>
               <Search/>
